@@ -44,7 +44,7 @@ function App() {
   }, [coords])
 
     return (
-    <div className={`App flex justify-center items-center min-h-screen bg-[url('/images/bg/${weather?.weather[0].icon}.jpg')]  bg-cover bg-center`}>
+    <div className={`App p-2 flex justify-center items-center min-h-screen bg-[url('/images/bg/09.png')]  bg-cover bg-center`}>
       {
         weather ? 
         (<Weather weather={weather} temps={temps}/>) :
