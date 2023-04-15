@@ -1,0 +1,15 @@
+.loader-09 {
+	background-color: currentcolor;
+	border-radius: 50%;
+	animation: loader-09 1.0s infinite ease-in-out;
+}
+
+@keyframes loader-09 {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1.0);
+		opacity: 0;
+	}
+}
