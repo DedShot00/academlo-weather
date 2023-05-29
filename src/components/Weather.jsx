@@ -18,9 +18,9 @@ const Weather = ({weather, temps}) => {
 
       <section className='flex flex-col gap-5 sm:flex-row'>
 
-        <article className=' grid grid-cols-2 bg-slate-900/50 rounded-2xl p-2 justify-items-center items-center'>
+        <article className=' grid grid-cols-2 bg-slate-900/60 rounded-2xl p-2 justify-items-center items-center backdrop-blur-sm'>
 
-          <h3 className='capitalize col-start-1 col-end-3'>{weather?.weather[0].description}</h3>
+          <h3 className='capitalize col-start-1 col-end-3 '>{weather?.weather[0].description}</h3>
 
           
           <h2 className='text-[3rem] sm:text-[4rem]'>{isCelsius ? `${temps.celsius} °C` : `${temps.fahrenheit} °F`}</h2>
@@ -31,7 +31,7 @@ const Weather = ({weather, temps}) => {
 
         </article>
 
-        <article className=' grid grid-cols-3 bg-slate-900/50 rounded-2xl p-2 sm:grid-cols-1 sm:items-center'>
+        <article className=' grid grid-cols-3 bg-slate-900/60 rounded-2xl p-2 sm:grid-cols-1 sm:items-center backdrop-blur-sm'>
 
           <div className='flex flex-col items-center'>
             <div>
